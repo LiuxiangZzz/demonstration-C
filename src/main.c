@@ -1,5 +1,5 @@
 #include "battle.h"
-//return 1
+//main
 /**
  * 主函数 - 典韦 vs 曹操 决斗
  */
