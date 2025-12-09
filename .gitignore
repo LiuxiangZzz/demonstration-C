@@ -6,7 +6,8 @@ demo
 *.dump
 
 # 编辑器文件
-.vscode/
+# .vscode/  # 注释掉，让 .vscode 配置提交到 Git
+.cache/  # clangd 缓存目录
 *.swp
 *~
 .DS_Store

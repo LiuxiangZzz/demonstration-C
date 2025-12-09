@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/home/lx28/demonstration/C",
+    "command": "gcc -Wall -Wextra -g -std=c11 -Iinclude -c src/battle.c -o build/object/battle.o",
+    "file": "src/battle.c"
+  },
+  {
+    "directory": "/home/lx28/demonstration/C",
+    "command": "gcc -Wall -Wextra -g -std=c11 -Iinclude -c src/main.c -o build/object/main.o",
+    "file": "src/main.c"
+  }
+]

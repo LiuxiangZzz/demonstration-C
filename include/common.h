@@ -7,10 +7,10 @@
 #include <unistd.h>
 
 /* 角色属性定义 */
-#define MAX_HP 10000
-#define DIANWEI_ATTACK 350    /* 典韦攻击力 */
+#define MAX_HP 100
+#define DIANWEI_ATTACK 25     /* 典韦攻击力 */
 #define DIANWEI_SPEED 8       /* 典韦攻速（每回合攻击次数） */
-#define CAOCAO_ATTACK 280     /* 曹操攻击力 */
+#define CAOCAO_ATTACK 20      /* 曹操攻击力 */
 #define CAOCAO_SPEED 10       /* 曹操攻速（每回合攻击次数） */
 
 /* 战斗相关常量 */
