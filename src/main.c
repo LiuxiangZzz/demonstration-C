@@ -1,5 +1,5 @@
 #include "battle.h"
-//noheihei
+//nooheihei
 /**
  * 主函数 - 典韦 vs 曹操 决斗
  */
