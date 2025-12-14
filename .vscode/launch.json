@@ -7,7 +7,7 @@
       "request": "launch",
       "program": "${workspaceFolder}/demo",
       "args": [],
-      "stopAtEntry": false,
+      "stopAtEntry": true,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
@@ -25,7 +25,7 @@
         }
       ],
       "preLaunchTask": "build",
-      "miDebuggerPath": "/usr/bin/gdb",
+      "miDebuggerPath": "gdb",
       "logging": {
         "engineLogging": false
       }

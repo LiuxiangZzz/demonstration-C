@@ -66,10 +66,14 @@ objdump: $(OBJDUMP_DIR) $(OBJECTS) $(OBJDUMP_FILES) $(TARGET)
 	fi
 	@echo "反汇编文件已生成到 $(OBJDUMP_DIR)"
 
-# 清理
+# 清理（保留目录结构，只删除文件）
 clean:
-	rm -rf $(BUILD_DIR) $(TARGET)
-	@echo "清理完成"
+	@mkdir -p $(BUILD_DIR) $(OBJ_DIR) $(ASM_DIR) $(OBJDUMP_DIR)
+	@if [ -d $(BUILD_DIR) ]; then \
+		find $(BUILD_DIR) -type f -delete; \
+	fi
+	rm -f $(TARGET)
+	@echo "清理完成（目录结构已保留）"
 
 # 完全清理（包括可执行文件）
 distclean: clean
